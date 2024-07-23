@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                fav1: '#da000d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    <h1 class="text-3xl text-pink-500 text-center">Welcome the second lecture of tailwindcss</h1>
+    <h1 class="text-3xl text-fav1 text-center">Welcome the second lecture of tailwindcss</h1>
 </body>
 </html>
