@@ -30,6 +30,10 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
-# Lecture2(How to Customize Screens/Breakpoints using Tailwind CSS🔥😯)🚀✨
+# Lecture3(How to Customize Screens/Breakpoints using Tailwind CSS🔥😯)🚀✨
 <strong>In this lecture I learn the following points.</strong>
+
+1. how we can use screens with different logics
+2. how we can edit screens through config file
+3. how we can customize these screen 
 
