@@ -9,7 +9,7 @@
         tailwind.config = {
           theme: {
             screens: {
-      'sm': '550px',
+      'sm': '400px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -25,8 +25,15 @@
       // => @media (min-width: 1536px) { ... }
     },
 
-    
+
             extend: {
+
+                screens: {
+                   'sm1': { 'min':'600px', 'max': '767px'},
+                    // => @media (min-width: 992px) { ... }
+                      },
+
+
               colors: {
                 clifford: '#da373d',
                 fav1: '#da000d',
@@ -37,6 +44,6 @@
       </script>
 </head>
 <body>
-    <h1 class="text-3xl text-fav1 sm:text-left text-right py-5 lg:py-10  md:text-center lg:text-center">tailwindcss Tutorial</h1>
+    <h1 class="text-3xl text-fav1 sm:text-left sm1:text-center text-right py-5 lg:py-10  md:text-center lg:text-center">tailwindcss Tutorial</h1>
 </body>
 </html>
