@@ -19,3 +19,11 @@ Advantages of Tailwind CSS:
 Discover the benefits of using Tailwind CSS, including faster development, easier maintenance, and greater customization.
 Why Choose Tailwind CSS?
 Tailwind CSS offers a different approach to styling web applications. Instead of limiting you to predefined components, it provides utility classes that can be composed to build any design, offering unparalleled flexibility and control over your project's aesthetics.
+
+
+# Lecture1(How to Include Tailwind CSS in Html using CDN)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+
+
+
