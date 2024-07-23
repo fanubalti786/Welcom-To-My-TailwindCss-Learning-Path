@@ -27,3 +27,9 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 1. uses of some basic classes of tailwind
 2. how we can link our html with talwindcss library through CDN 
 3. how we can customize through config file our colors 
+
+
+
+# Lecture2(How to Customize Screens/Breakpoints using Tailwind CSS🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
