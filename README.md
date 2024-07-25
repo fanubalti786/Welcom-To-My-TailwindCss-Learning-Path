@@ -37,3 +37,13 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 2. how we can edit screens through config file
 3. how we can customize these screen 
 
+
+# Lecture4(What are Containers in Tailwind CSS?🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can use container class 
+2. how we can customiz width of container
+3. how we can play with container
+
+
+
