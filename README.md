@@ -47,3 +47,13 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
+# Lecture5(Working with Text Colors in Tailwind CSS?🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can change color simply
+2. how we can change color with bracket[]
+3. how we can fix our color 
+4. how we can extend our color
+
+
+
