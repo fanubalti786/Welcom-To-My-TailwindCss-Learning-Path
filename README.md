@@ -57,3 +57,13 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
+# Lecture5(Working with Grid Template Columns in Tailwind CSS🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can break columns through grid
+2. how we can apply in different screen
+3. how we can grid gap propertiy
+4. how we can recieve responsive web
+
+
+
