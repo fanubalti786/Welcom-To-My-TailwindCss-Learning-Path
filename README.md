@@ -47,7 +47,7 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
-# Lecture5(Working with Text Colors in Tailwind CSS?🔥😯)🚀✨
+# Lecture5and6(Working with Text Colors in Tailwind CSS?🔥😯)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 
 1. how we can change color simply
@@ -57,7 +57,8 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
-# Lecture6(Working with Grid Template Columns in Tailwind CSS🔥😯)🚀✨
+
+# Lecture7(Working with Grid Template Columns in Tailwind CSS🔥😯)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 
 1. how we can break columns through grid
@@ -66,7 +67,7 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 4. how we can recieve responsive web
 
 
-# Lecture7(How to Span Grid Template Columns🔥😯)🚀✨
+# Lecture8(How to Span Grid Template Columns🔥😯)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 
 1. how we can use span property in grid
@@ -77,13 +78,23 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
-# Lecture8(How to Span Grid Template Columns🔥😯)🚀✨
+
+# Lecture9(Grid Template Rows🔥😯)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 
-1. how we can use span property in grid
-2. how we can manage width through span
-3. spane properties like (colspan(1,2...))
-4. we can manage width through colestart and colend 
+1. how we can break Rows through grid
+2. how we can apply in different screen
+3. how we can use grid gap propertiy
+4. how we can recieve responsive web
+
+
+# Lecture10(How to Span Grid Template Rows🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can use span Row property in grid
+2. how we can manage hight through span
+3. spane properties like (rowspan(1,2...))
+4. we can manage width through rowstart and rowend 
 5. how we can adjust spaning through different screen
 
 
