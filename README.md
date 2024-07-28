@@ -57,13 +57,24 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
-# Lecture5(Working with Grid Template Columns in Tailwind CSS🔥😯)🚀✨
+# Lecture6(Working with Grid Template Columns in Tailwind CSS🔥😯)🚀✨
 <strong>In this lecture I learn the following points.</strong>
 
 1. how we can break columns through grid
 2. how we can apply in different screen
 3. how we can grid gap propertiy
 4. how we can recieve responsive web
+
+
+# Lecture7(How to Span Grid Template Columns🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can use span property in grid
+2. how we can manage width through span
+3. spane properties like (colspan(1,2...))
+4. we can manage width through colestart and colend 
+5. how we can adjust spaning through different screen
+
 
 
 
