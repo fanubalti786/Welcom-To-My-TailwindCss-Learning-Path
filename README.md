@@ -99,4 +99,17 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
+# Lecture11(Padding\Spacing Classes of Tailwind CSS🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can use padding with different way
+2. x-axis padding
+3. y-axis padding
+4. top, left, bottom and Right padding separatly
+5. all side combine padding
+
+
+
+
+
 
