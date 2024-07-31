@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Padding\Spacing Classes of Tailwind CSS</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                fav1: '#da000d',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+     
+    
+    <div class="max-w-[1200px] bg-slate-500 text-black text-center m-5">
+        <h1>how padding use</h1>
+    </div>
+
+    <div class="max-w-[1200px] bg-slate-500 text-black text-center mt-[16px] mb-[16px] ml-[32px] mr-[32px]  ">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque nam aliquid obcaecati totam voluptatem consectetur ratione doloribus! 
+            Sequi neque molestias nemo. Beatae aliquam nihil quod amet ipsum qui enim vitae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, quibusdam, corrupti dolorum libero iusto debitis omnis quidem officiis nemo 
+            rerum facere? Tempora sit veniam nostrum fugiat porro enim quis quod?</h1>
+    </div>
+
+    <div class="max-w-[1200px] bg-slate-500 text-black text-center my-[20px] mx-[20px] ">
+        <h1>how padding use Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque nam aliquid obcaecati totam voluptatem consectetur ratione doloribus! 
+            Sequi neque molestias nemo. Beatae aliquam nihil quod amet ipsum qui enim vitae! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, quibusdam, corrupti dolorum libero iusto debitis omnis quidem officiis nemo 
+            rerum facere? Tempora sit veniam nostrum fugiat porro enim quis quod?</h1>
+    </div>
+
+</body>
+</html>
