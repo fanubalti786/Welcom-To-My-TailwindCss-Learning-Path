@@ -110,6 +110,17 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
+# Lecture12(Margin\Spacing Classes of Tailwind CSS🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can use Margin with different way
+2. x-axis Margin
+3. y-axis Margin
+4. top, left, bottom and Right padding separatly
+5. all side combine Margin
+
+
+
 
 
 
