@@ -121,6 +121,17 @@ Tailwind CSS offers a different approach to styling web applications. Instead of
 
 
 
+# Lecture12(Responsive Cards in Tailwind CSS🔥😯)🚀✨
+<strong>In this lecture I learn the following points.</strong>
+
+1. how we can responsive cards 
+2. how we can manage our cards aoccording to screen
+3. why we use hover and overflow
+4. different properties like rounded, hover:scal 
+5. shadow-lg and duration properties
+
+
+
 
 
 
