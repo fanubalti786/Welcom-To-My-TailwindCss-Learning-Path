@@ -21,7 +21,19 @@ Why Choose Tailwind CSS?
 Tailwind CSS offers a different approach to styling web applications. Instead of limiting you to predefined components, it provides utility classes that can be composed to build any design, offering unparalleled flexibility and control over your project's aesthetics.
 
 
+# Difference b/w Bootstrap vs Tailwind
 
+# Bootstrape:
+i. Provide UI Kit
+ii. Fully Responsive
+iii. Websites Look Almost Same
+iv. Large File Size
+
+# Tailwind:
+i. Customize our own UI Kit 
+ii. Make Itsself responsive
+iii. easy built complex user interface
+iv. reduce file size
 
 
 
