@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Section</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '420px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '650px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                fav1: '#da000d',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="max-w-[1024px] lg:mx-auto text-center py-2 my-2 text-3xl bg-slate-500 md:mx-3 sm:mx-3 mx-3 ">
+        Our Services
+    </div>
+
+    <div class="max-w-[1024px] lg:mx-auto grid lg:grid-cols-4 md:grid-cols-3 md:mx-3 sm:mx-3 sm:grid-cols-2 gap-5 mx-3">
+        <div class="text-center shadow-lg rounded-[10px]">
+          <div class="overflow-hidden">
+            <img src="" alt="">
+          </div>
+            
+            <p class="py-1">Rs 10000/</p>
+        </div>
+
+
+     
+       
+
+
+        
+
+        
+        
+    </div>
+     
+</body>
+</html>
