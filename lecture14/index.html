@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Section</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -26,6 +26,10 @@
       // => @media (min-width: 1536px) { ... }
     },
             extend: {
+              screens: {
+        'xsm': '200px',
+        // => @media (min-width: 992px) { ... }
+      },
               colors: {
                 clifford: '#da373d',
                 fav1: '#da000d',
@@ -37,19 +41,66 @@
 </head>
 <body>
 
-    <div class="max-w-[1024px] lg:mx-auto text-center py-2 my-2 text-3xl bg-slate-500 md:mx-3 sm:mx-3 mx-3 ">
+    <div class="max-w-[1250px] mx-auto text-center py-2 text-3xl border-2 ">
         Our Services
     </div>
 
-    <div class="max-w-[1024px] lg:mx-auto grid lg:grid-cols-4 md:grid-cols-3 md:mx-3 sm:mx-3 sm:grid-cols-2 gap-5 mx-3">
-        <div class="text-center shadow-lg rounded-[10px]">
-          <div class="overflow-hidden">
-            <img src="" alt="">
-          </div>
-            
-            <p class="py-1">Rs 10000/</p>
-        </div>
+    <div class="max-w-[1250px] mx-auto grid gap-3 my-2 grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xsm:grid-cols-1 ">
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
 
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+    
 
      
        
