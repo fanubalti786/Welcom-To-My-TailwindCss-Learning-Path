@@ -5,15 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us Section</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+      'sm': '420px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '650px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+            extend: {
+              screens: {
+        'xsm': '200px',
+        // => @media (min-width: 992px) { ... }
+      },
+              colors: {
+                clifford: '#da373d',
+                fav1: '#da000d',
+              }
+            }
+          }
+        }
+    </script>
 
 </head>
 <body>
-    <div class="max-w-[1250px] m-auto flex p-3 gap-1 md:flex-row ">
+
+    <div class="max-w-[1250px] mx-auto border-2 py-2 px-2 text-center 
+    text-2xl bg-blue-400 border-blue-800 lg:mx">
+      <h1>Our Products</h1>
+    </div>
+    
+    <div  class="max-w-[1250px] mx-auto grid gap-1 mt-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2">
+      <div class="text-center shadow-lg  ">
+        <div class=" overflow-hidden">
+          <img src="https://alita.pk/cdn/shop/products/0db142ae-2c6d-4dd0-b56c-291fb854b6b5-633634_1100x.jpg?v=1695140665"
+          class="hover:scale-125 duration-200 rounded-[10px]">
+    
+        </div>
+        <h1>Pure Gold Necklace</h1>
+        <p >Rs  /10000</p>
+      </div>
+    
+    
+      <div class="text-center shadow-lg  ">
+        <div class=" overflow-hidden">
+          <img src="https://alita.pk/cdn/shop/products/0db142ae-2c6d-4dd0-b56c-291fb854b6b5-633634_1100x.jpg?v=1695140665"
+          class="hover:scale-125 duration-200 rounded-[10px]">
+    
+        </div>
+        <h1>Pure Gold Necklace</h1>
+        <p >Rs  /10000</p>
+      </div>
+    
+    
+    
+    
+      <div class="text-center shadow-lg  ">
+        <div class=" overflow-hidden">
+          <img src="https://alita.pk/cdn/shop/products/0db142ae-2c6d-4dd0-b56c-291fb854b6b5-633634_1100x.jpg?v=1695140665"
+          class="hover:scale-125 duration-200 rounded-[10px]">
+    
+        </div>
+        <h1>Pure Gold Necklace</h1>
+        <p >Rs  /10000</p>
+      </div>
+    
+    
+    
+    
+      <div class="text-center shadow-lg  ">
+        <div class=" overflow-hidden">
+          <img src="https://alita.pk/cdn/shop/products/0db142ae-2c6d-4dd0-b56c-291fb854b6b5-633634_1100x.jpg?v=1695140665"
+          class="hover:scale-125 duration-200 rounded-[10px]">
+    
+        </div>
+        <h1>Pure Gold Necklace</h1>
+        <p >Rs  /10000</p>
+      </div>
+    
+      
+    </div>
 
 
-        <div class="basis-[45%]">
+
+  <br>
+
+    <div class="max-w-[1250px] mx-auto text-center py-2 text-3xl border-2 ">
+        Our Services
+    </div>
+
+    <div class="max-w-[1250px] mx-auto grid gap-3 my-2 grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xsm:grid-cols-1 ">
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+      <div class="text-center border-2 p-3 hover:bg-blue-500 hover:text-white duration-700 group">
+        <i class="fa-thin fa-laptop-code text-5xl text-blue-500 group-hover:text-white duration-700 group-hover:animate-bounce"></i>
+        <h1 class="text-2xl">Web Design</h1>
+        <p class="py-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum, corrupti soluta repudiandae corporis autem commodi quae quaerat re</p>
+      </div>
+
+
+    
+
+     
+       
+
+
+        
+
+        
+        
+    </div>
+
+
+    <br>
+
+
+    <div class="max-w-[1250px] m-auto text-center border-2 p-2">
+        <h1 class="text-4xl ">Contact Us</h1>
+    </div>
+
+
+    <div class="max-w-[1250px] m-auto flex  gap-1 flex-col sm:flex-row ">
+
+        
+
+        <div class="max-basis-[45%]">
             <img src="https://alita.pk/cdn/shop/products/0db142ae-2c6d-4dd0-b56c-291fb854b6b5-633634_1100x.jpg?v=1695140665"
-            class="w-full ">
+            class="w-full h-[500px] ">
         </div>
 
 
